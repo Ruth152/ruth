@@ -1,5 +1,4 @@
 import {Routes, Route} from 'react-router-dom'
-import Home from './pages/Home/home'
 import Menu from './pages/menu/menu'
 import Orders from './pages/orders/orders'
 import About from './pages/about/about'
@@ -11,6 +10,7 @@ import Error from './pages/error/error'
 import Checkout from './pages/checkout/checkout'
 import OrderConfirmation from './pages/orderConfirmation/orderConfirmation'
 import OrderTracking from './pages/orderTracking/orderTracking'
+import Home from './pages/home/home'
 
 
 
