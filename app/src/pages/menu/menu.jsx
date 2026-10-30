@@ -5,6 +5,7 @@ import { Search } from "lucide-react";
 import MenuList from "../../components/menuList";
 import { useState } from "react";
 import SearchFood from "../../components/searchFood";
+import Error from "../error/error";
 
 
 function Menu() {
@@ -80,7 +81,7 @@ function Menu() {
       <MenuList key={item.dish_id} dish={item} />
     ))
   ) : (
-    <p>No dishes found.</p>
+    <p><Error/></p>
   )}
 </div>
     </div>

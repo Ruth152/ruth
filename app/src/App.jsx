@@ -7,6 +7,10 @@ import Nav from './components/nav'
 import Footer from './components/footer'
 import Cart from './pages/cart/cart'
 import ProductDetails from './pages/productDetails/productDetails'
+import Error from './pages/error/error'
+import Checkout from './pages/checkout/checkout'
+import OrderConfirmation from './pages/orderConfirmation/orderConfirmation'
+import OrderTracking from './pages/orderTracking/orderTracking'
 
 
 
@@ -27,6 +31,10 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/dish/:dish_id' element={<ProductDetails />} />
           <Route path='/cart' element={<Cart/>}/>
+          <Route path='/error' element={<Error/>}/>
+          <Route path='/checkout' element={<Checkout/>}/>
+          <Route path='/order confirmation' element={<OrderConfirmation/>}/>
+          <Route path='/order tracking' element={<OrderTracking/>}/>
         </Routes>
       
       <Footer/>
